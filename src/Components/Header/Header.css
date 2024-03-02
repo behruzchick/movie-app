@@ -1,0 +1,28 @@
+.form-input{
+    width: 400px;
+}
+
+.navbar{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 30px;
+    margin: 20px;
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar-menu {
+    width: 400px;
+    box-shadow: none;
+}
+
+.form-input{
+    background: none;
+    color: white;
+}
+
+.form-input::placeholder{
+    color: white;
+}
